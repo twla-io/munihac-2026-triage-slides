@@ -17,3 +17,9 @@ The code from the talk: [github.com/twla-io/triage](https://github.com/twla-io/t
 npx @marp-team/marp-cli talk.md --allow-local-files -o talk.html
 npx @marp-team/marp-cli talk.md --allow-local-files -o talk.pdf
 ```
+
+## License
+
+© 2026 Niko Pachuashvili. The slides are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [LICENSE](LICENSE).
+
+Not covered: the book covers (`images/haskell-school-of-music.jpg`, `images/learn-you-a-haskell.jpg`, `images/programming-in-haskell.jpg`), the tweet screenshot (`images/hutton-tweet.jpg`) and the Twla logo (`images/twla-logo.png`) belong to their respective owners.
