@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="Arial, sans-serif">
+  <!-- The tangled path: C# → F# → Clojure → Haskell -->
+  <path d="M 90 360
+           C 150 460, 290 450, 270 360
+           C 255 290, 150 300, 180 350
+           C 210 400, 300 380, 330 320
+           C 350 270, 300 190, 250 230
+           C 200 270, 280 330, 390 300
+           C 470 280, 480 200, 430 195
+           C 380 190, 380 270, 470 300
+           C 550 330, 560 410, 620 405
+           C 680 400, 720 350, 680 320
+           C 640 290, 610 240, 660 215
+           C 710 190, 770 250, 735 295
+           C 700 340, 630 320, 680 270
+           C 730 220, 820 200, 860 255
+           C 895 300, 930 240, 960 230"
+        fill="none" stroke="#5946A5" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 10"/>
+
+  <!-- Stops -->
+  <g fill="#292735">
+    <circle cx="90" cy="360" r="12"/>
+    <circle cx="390" cy="300" r="12"/>
+    <circle cx="680" cy="320" r="12"/>
+  </g>
+  <g font-size="34" font-weight="bold" fill="#292735" text-anchor="middle">
+    <text x="90" y="420">C#</text>
+    <text x="420" y="370">F#</text>
+    <text x="700" y="455">Clojure</text>
+    <text x="1060" y="340" fill="#5946A5">Haskell</text>
+  </g>
+
+  <!-- Destination: the Haskell logo -->
+  <g transform="translate(975 170) scale(10)">
+    <polygon fill="#453a62" points="0,12 4,6 0,0 3,0 7,6 3,12"/>
+    <polygon fill="#5e5086" points="4,12 8,6 4,0 7,0 15,12 12,12 9.5,8.25 7,12"/>
+    <polygon fill="#8f4e8b" points="13.66,8.75 12.33,6.75 17,6.75 17,8.75"/>
+    <polygon fill="#8f4e8b" points="11.66,5.75 10.33,3.75 17,3.75 17,5.75"/>
+  </g>
+</svg>
